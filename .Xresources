@@ -1,0 +1,61 @@
+
+! Nord Theme, but better
+! special
+*.foreground:   #d8dee9
+*.background:   #12151a
+*.cursorColor:  #d8dee9
+
+! black
+*.color0:       #3b4252
+*.color8:       #4c566a
+
+! red
+*.color1:       #ff0018
+*.color9:       #ff0018
+
+! green
+*.color2:       #57be00
+*.color10:      #57be00
+
+! yellow
+*.color3:       #faea17
+*.color11:      #faea17
+
+! blue
+*.color4:       #2a75c1
+*.color12:      #2a75c1
+
+! magenta
+*.color5:       #9c39ff
+*.color13:      #9c39ff
+
+! cyan
+*.color6:       #24aad0
+*.color14:      #1dbcb8
+
+! white
+*.color7:       #989b9f
+*.color15:      #9a9d9f
+
+
+! rxvt
+! scrollbar - true (default) or false
+URxvt*scrollBar: false
+
+! font
+URxvt.font: xft:Iosevka Nerd Font:style=Regular:size=10
+
+! scrollbar position - left=false (default) or right=true
+URxvt*scrollBar_right: true
+
+! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt*scrollstyle: rxvt
+
+! scrollback buffer lines - 65535 is max on most machines (64 is default)
+URxvt*saveLines: 65535
+
+! resize fonts
+urxvt.perl-lib:                     ~/.urxvt/urxvt-font
+urxvt.keysym.Control-Shift-Up:      perl:font:increment
+urxvt.keysym.Control-Shift-Down:    perl:font:decrement
+urxvt.perl-ext-common:              font
