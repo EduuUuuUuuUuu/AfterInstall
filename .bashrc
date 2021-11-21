@@ -21,6 +21,7 @@ PS1='[\u]\h \W \$ '
 
 export EDITOR='vim'
 export BROWSER='firefox'
+export TERM='st'
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
